@@ -7,11 +7,11 @@ let skip = false;
 
 //Audio Files
 
-const alarmSound = new Audio("sound/alarm.wav");
-const clickSound = new Audio("sound/click.wav");
-const darkVoiceSound = new Audio("sound/darkvoicewhatrudoinghere.wav");
-const errorSound = new Audio("sound/error.wav");
-const titleSound = new Audio("sound/title.wav");
+const alarmSound = new Audio("alarm.wav");
+const clickSound = new Audio("click.wav");
+const darkVoiceSound = new Audio("darkvoicewhatrudoinghere.wav");
+const errorSound = new Audio("error.wav");
+const titleSound = new Audio("title.wav");
 
 
 const titleAnimation = () =>{
