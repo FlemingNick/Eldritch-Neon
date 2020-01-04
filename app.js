@@ -143,5 +143,3 @@ if(levelCounter===0){
 
 
 
-
-
