@@ -18,6 +18,29 @@
     box-sizing: border-box;
 }
 
+#manual{
+    position: absolute;
+    width: 10vw;
+    height:75vh;
+    margin: 50vh 10vw auto;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 1%;
+    justify-content: center;
+    border-style: ridge;
+    border-color: blue;
+    opacity: 0;
+    
+}
+#commands{
+    display: none;
+}
+#burger{
+    position: absolute;
+    width: 5vw;
+}
+
 
 .mainWindow{
     margin: 50vh 50vw auto;
@@ -27,9 +50,6 @@
     border-color: blue;
     height: 80vh;
     width: 60vw;
-    
-    
-    
 }
 .box{
     position: absolute;
@@ -99,5 +119,16 @@
     color: #FFFFFF;
 
 }
+#author{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    opacity: 0;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
 
 
