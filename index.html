@@ -12,18 +12,39 @@
     
     
     <div id="container">
+        <img src='Burger.png' id='burger'>
+        <div id='manual'>
+           <div id="commands">
+            <p>commands:</p>
+            <br>
+            <li>inspect..</li>
+            <li>go to...</li>
+            <li>talk to.</li>
+            <li>pick up.</li>
+            <li>fight...</li>
+            <li>use...with</li>
+            <br>
+            <br>
+            <p>type these commands (without capital letters) in the command prompt and add the item zou want to interact with</p>
+            </div>
+        </div>
         
         <div class="mainWindow">
 
             <div id="quest-box">
                 <div id="title">Eldritch Neon</div>
+                <div id="author">created by Fleming Nickelsen</div>
                 <div id="quest-text"></div>
                 
             </div>
 
             <div id="answer-box">
-                <p><textarea id = "input">Your text here</textarea></p>
-                <button id="submit">check</button>
+                <form id='answer'>
+                    <input type='text' id='input' placeholder="Enter your command...">
+                    <input type='submit' value='ckeck' id='submit'>
+                </form>
+                
+                
             </div>
             <img id="skip" src="Download.png">
             
@@ -32,7 +53,7 @@
             
 
         </div>
-    </div>
+    </div></div>
 
 
 
